@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Administrasi Teknisi</title><link rel="stylesheet" href="styles.css"></head>
+<body><header><strong>⚙ Administrasi Teknisi</strong><nav id="nav" hidden><button data-page="dashboard">Dashboard</button><button data-page="repairs">Perbaikan</button><button data-page="stock">Kartu Stok</button><button data-page="users" id="usersBtn">Pengguna</button><span id="who"></span><button id="logout" class="secondary">Keluar</button></nav></header>
+<main id="app"><section class="card login"><h1>Administrasi Teknisi</h1><p>Masuk dengan email dan kata sandi.</p><form id="loginForm"><label>Email<input name="email" type="email" required autocomplete="username"></label><label>Kata sandi<input name="password" type="password" required autocomplete="current-password"></label><button class="primary">Masuk</button></form><p class="muted">Akun dibuat melalui Supabase Auth atau menu Pengguna setelah API Vercel dikonfigurasi.</p></section></main>
+<footer>Administrasi Teknisi · Vercel + Supabase</footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="config.js"></script><script src="app.js"></script></body></html>
